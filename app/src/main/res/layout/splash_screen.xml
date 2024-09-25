@@ -35,15 +35,16 @@
 
     <Button
         android:id="@+id/welcomeButton"
-        android:layout_width="125dp"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#536DFE"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF6E40"
         android:text="@string/enter"
+        android:textColor="@color/black"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.798"
-        tools:layout_editor_absoluteY="377dp" />
+        app:layout_constraintVertical_bias="0.798" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
